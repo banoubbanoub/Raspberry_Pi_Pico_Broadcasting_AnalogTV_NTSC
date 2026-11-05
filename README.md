@@ -175,3 +175,44 @@ It is another example of bringing modern microcontrollers together with vintage 
 **Video Output GPIO:** GPIO21  
 **Target Bit Rate:** 80 MHz  
 **Tuner Control:** Arduino Nano / CRT tuner PLL
+
+## Credits and Acknowledgments
+
+This project was inspired by the excellent work of **Charles Lohr (@cnlohr)** and his original ESP8266 Analog Broadcast Television Interface:
+
+https://github.com/cnlohr/channel3
+
+His project introduced me to the fascinating possibility of generating analog television signals using a microcontroller.
+
+I used and adapted portions of his original code as a reference and starting point for my RP2040 implementation.
+
+My implementation builds on that inspiration, using the Raspberry Pi Pico RP2040, PIO, and DMA for video waveform generation, along with an Arduino Nano for CRT tuner PLL control.
+
+**Special thanks to Charles Lohr for sharing his work with the open-source community and inspiring other electronics enthusiasts to experiment with analog television technology.**
+
+Original author: Charles Lohr (@cnlohr)  
+Original project: https://github.com/cnlohr/channel3
+
+MIT License
+
+Copyright (c) 2026 Banou
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+## License
+
+This project is released under the MIT License.
+
+Free to use, modify, and distribute.
+See the [LICENSE](LICENSE) file for details.
